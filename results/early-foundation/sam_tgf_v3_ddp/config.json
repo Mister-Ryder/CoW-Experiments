@@ -1,0 +1,22 @@
+{
+  "exp_name": "sam_tgf_v3_ddp",
+  "foundation_type": "sam3d_turbo",
+  "fusion_type": "tgf",
+  "foundation_ckpt": "./sam_med3d_turbo.pth",
+  "seed": 0,
+  "train_dir": "./TopCoW_processed",
+  "test_dir": "./crown_processed",
+  "output_dir": "./runs_topcow_foundation",
+  "epochs": 400,
+  "batch_size": 18,
+  "lr": 0.001,
+  "num_workers": 2,
+  "summarize": false,
+  "amp": false,
+  "use_contras": false,
+  "contras_weight": 0.1,
+  "world_size": 6,
+  "rank": 0,
+  "local_rank": 0,
+  "distributed": true
+}

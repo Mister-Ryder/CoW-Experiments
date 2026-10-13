@@ -1,0 +1,24 @@
+# Large immutable experiment inputs and historical outputs
+/TopCoW_processed/
+/crown_processed/
+/lausanne_processed/
+/ixi_processed/
+/SAM-Med3D/
+/Runs_foundation/
+/Runs_foundation_v2/
+/analysis_fdd_foundation_all_ixi_vis3/
+/sam_med3d_turbo.pth
+
+# New run artifacts live outside source control
+/results_tcff_rebuttal/
+/remote_sync/
+
+# Python/editor/runtime files
+__pycache__/
+*.py[cod]
+*.log
+.idea/
+.vscode/
+.env_ready
+.local_status
+.snapshot_status
