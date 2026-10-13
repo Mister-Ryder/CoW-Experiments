@@ -1,0 +1,15 @@
+{
+  "exp_name": "indcls_tgf",
+  "phase": "train_fusion",
+  "fusion_type": "tgf",
+  "classifier_ckpt": "./runs_indcls/indcls_classifier/best_model.pth",
+  "seed": 42,
+  "train_dir": "./TopCoW_processed",
+  "test_dir": "./crown_processed",
+  "output_dir": "./runs_indcls",
+  "epochs": 200,
+  "batch_size": 2,
+  "lr": 0.001,
+  "num_workers": 4,
+  "gpu": 0
+}

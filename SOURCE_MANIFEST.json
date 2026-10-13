@@ -1,0 +1,532 @@
+[
+  {
+    "path": "legacy-topcow/func/AnatomicalClassifier.py",
+    "bytes": 6864,
+    "sha256": "f5288c74ce71db97eca63f9665e29dfb0099aa010326ce7d6748377bc0156222"
+  },
+  {
+    "path": "legacy-topcow/func/AnatomicalFusionModules.py",
+    "bytes": 14098,
+    "sha256": "7309281bb296eb7d861050f5ead6b563823b8393addf6ff7c18a594225030b01"
+  },
+  {
+    "path": "legacy-topcow/func/EnhancedAirwaySegmentation2gau.py",
+    "bytes": 15437,
+    "sha256": "13808eeac5c23d084104d18e4b8425c01ba035b84168d1dc6a69cc6a25de28fc"
+  },
+  {
+    "path": "legacy-topcow/func/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "legacy-topcow/func/detect_tree.py",
+    "bytes": 40440,
+    "sha256": "33aea459f9feee3409b6248adc9d650ea61302270bdd0720d87b92f7284db2fe"
+  },
+  {
+    "path": "legacy-topcow/func/load_dataset.py",
+    "bytes": 43997,
+    "sha256": "a21458df616ac4b67faa70c3ab7fe46fd90242890c794075f594d2dffeff9669"
+  },
+  {
+    "path": "legacy-topcow/func/loss_func.py",
+    "bytes": 7616,
+    "sha256": "7503b0468f13ca2d773b7bc441f11ffe703e4f0f42007cc004e0b5f3945d4c62"
+  },
+  {
+    "path": "legacy-topcow/func/model_arch_model10.py",
+    "bytes": 34321,
+    "sha256": "55d51ea850efd2b31aa07acd68ad5e24f64fafe6a714d26dc357919f639f3003"
+  },
+  {
+    "path": "legacy-topcow/func/ulti.py",
+    "bytes": 7350,
+    "sha256": "483b3d90264a8ca58eab8880cd4605e120e69f533468d772628f5220d15b345d"
+  },
+  {
+    "path": "legacy-topcow/fusion_baselines.py",
+    "bytes": 8013,
+    "sha256": "2eccd4b1c54a484e3f35ffe25302cb4dee2d6e1668b20d0b5380737e358b9da8"
+  },
+  {
+    "path": "legacy-topcow/run_topcow_experiments.sh",
+    "bytes": 977,
+    "sha256": "0d4c008eef1e3ce4f1ed55f84ea96b993ba4398463ef2741daf3688a684c9d9d"
+  },
+  {
+    "path": "legacy-topcow/topcow_anatomical_classifier.py",
+    "bytes": 3535,
+    "sha256": "bcaa590129840b261f94a9ad274960e676f97bfcda4db478f135492d1eb8b52c"
+  },
+  {
+    "path": "legacy-topcow/topcow_boost.py",
+    "bytes": 10318,
+    "sha256": "8b90937b1c37f592edab9d4fa97d74e066b9b5c6b1c9e02e8c803bd53b4c4c3e"
+  },
+  {
+    "path": "legacy-topcow/topcow_dataset.py",
+    "bytes": 7912,
+    "sha256": "85ffa964301ce7201d966101f800c19e247ad84eb4024afa81704460843191f2"
+  },
+  {
+    "path": "legacy-topcow/topcow_model.py",
+    "bytes": 17401,
+    "sha256": "53ca698359758afa421ca669ac16d23111102fc73863c9e27e74be250e08a707"
+  },
+  {
+    "path": "legacy-topcow/topcow_model_independent_fusion.py",
+    "bytes": 9777,
+    "sha256": "bc0c4634e436eaa2f2f1ced5059a4fd9ffb57525afd9302d25de6370883f43f3"
+  },
+  {
+    "path": "legacy-topcow/topcow_preprocess_crown.py",
+    "bytes": 8220,
+    "sha256": "74cc6890c2554651f23f5c775aac53b855166106220d9ecdad6ee435dc326cb5"
+  },
+  {
+    "path": "legacy-topcow/topcow_preprocess_v2.py",
+    "bytes": 18689,
+    "sha256": "c13f44538de69de1ec844cfbe6289e331447b9ffa92cd59afd4bd388529318ea"
+  },
+  {
+    "path": "legacy-topcow/topcow_train.py",
+    "bytes": 17509,
+    "sha256": "f894e557c163c819d423677b7ed3cc48f0989804c2363be8cbddd361015b7889"
+  },
+  {
+    "path": "legacy-topcow/topcow_train_baselines.py",
+    "bytes": 17399,
+    "sha256": "59643664bd4a14a6621554f5a7846a3e08a670904d8564396645bf8e8e592d4f"
+  },
+  {
+    "path": "legacy-topcow/topcow_train_independent_fusion.py",
+    "bytes": 14853,
+    "sha256": "cefa65fc6ef210543b905461075c7077b8db2a8f768766a46167f42dcbb0e76a"
+  },
+  {
+    "path": "legacy-topcow/topcow_train_pretrain.py",
+    "bytes": 19844,
+    "sha256": "d54d1d2a1c816ba5595ea188a64ee257eae396dcdbfcc06d27780f81b668905f"
+  },
+  {
+    "path": "semantic-standalone/semantic_compile_tcff_g1_followup.py",
+    "bytes": 9168,
+    "sha256": "7fd0165b4fe6e24dd77de17c2443c6d69a0ee3bf1d6344d3d4f661cf473f75bd"
+  },
+  {
+    "path": "semantic-standalone/semantic_compile_tcff_make_case_panels.py",
+    "bytes": 10544,
+    "sha256": "3c17a572a3dd34d88037e4a6fa9fc030fbc72114ef663553e9093696d9310821"
+  },
+  {
+    "path": "semantic-standalone/semantic_compile_tcff_postprocess.py",
+    "bytes": 175594,
+    "sha256": "9bc90fbdfcbc818f17b7fe6f8e819ae27433bd37cdec41f6307322be1595bc41"
+  },
+  {
+    "path": "semantic-standalone/semantic_compile_tcff_rebuttal_runner.py",
+    "bytes": 32845,
+    "sha256": "a58d33a1c7409b662afedfd39c70fc8e3ccc1326f11cbd973daaab4fb0729afa"
+  },
+  {
+    "path": "semantic-standalone/semantic_compile_topcow_foundation_model.py",
+    "bytes": 38452,
+    "sha256": "b812b020dc7854f8c2a52df9c9de1f266828c6e623689c0f68acff6e2fcc2162"
+  },
+  {
+    "path": "semantic-standalone/tcff-efficiency-isolated-attempt3.sh",
+    "bytes": 1393,
+    "sha256": "7d154415e50a8cae16169f2a4c0ee0182a259cebd43194a7b1fcf7e350ea6311"
+  },
+  {
+    "path": "semantic-standalone/tcff_make_case_panels_semantic_smoke.py",
+    "bytes": 10544,
+    "sha256": "3c17a572a3dd34d88037e4a6fa9fc030fbc72114ef663553e9093696d9310821"
+  },
+  {
+    "path": "semantic-standalone/tcff_postprocess_dev.py",
+    "bytes": 124924,
+    "sha256": "796a93f3fc2ddd03acd2a189d5459929a7587ef6359e29069e0a88307f9d41af"
+  },
+  {
+    "path": "semantic-standalone/tcff_postprocess_semantic_smoke.py",
+    "bytes": 175594,
+    "sha256": "9bc90fbdfcbc818f17b7fe6f8e819ae27433bd37cdec41f6307322be1595bc41"
+  },
+  {
+    "path": "semantic-standalone/tcff_verify_quote_table_dev.py",
+    "bytes": 5581,
+    "sha256": "c5325897d1c5319c32485c7f442633fcb55f17c307d634ec149838b67531d298"
+  },
+  {
+    "path": "tcff-base/.gitignore",
+    "bytes": 449,
+    "sha256": "b71a641d22b7481715a70f73ec1d7f70f918e7620cdf96e5d73b0f5a0eaaa2ae"
+  },
+  {
+    "path": "tcff-base/REBUTTAL_PROJECT_README.md",
+    "bytes": 2433,
+    "sha256": "489eeba0a8f31afa007f7d549f65b016c815290641264498b9fac06dadbe73d2"
+  },
+  {
+    "path": "tcff-base/func/AnatomicalClassifier.py",
+    "bytes": 6864,
+    "sha256": "f5288c74ce71db97eca63f9665e29dfb0099aa010326ce7d6748377bc0156222"
+  },
+  {
+    "path": "tcff-base/func/AnatomicalFusionModules.py",
+    "bytes": 14098,
+    "sha256": "7309281bb296eb7d861050f5ead6b563823b8393addf6ff7c18a594225030b01"
+  },
+  {
+    "path": "tcff-base/func/EnhancedAirwaySegmentation2gau.py",
+    "bytes": 15437,
+    "sha256": "13808eeac5c23d084104d18e4b8425c01ba035b84168d1dc6a69cc6a25de28fc"
+  },
+  {
+    "path": "tcff-base/func/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "tcff-base/func/detect_tree.py",
+    "bytes": 40440,
+    "sha256": "33aea459f9feee3409b6248adc9d650ea61302270bdd0720d87b92f7284db2fe"
+  },
+  {
+    "path": "tcff-base/func/load_dataset.py",
+    "bytes": 43997,
+    "sha256": "a21458df616ac4b67faa70c3ab7fe46fd90242890c794075f594d2dffeff9669"
+  },
+  {
+    "path": "tcff-base/func/loss_func.py",
+    "bytes": 7616,
+    "sha256": "7503b0468f13ca2d773b7bc441f11ffe703e4f0f42007cc004e0b5f3945d4c62"
+  },
+  {
+    "path": "tcff-base/func/model_arch_model10.py",
+    "bytes": 34321,
+    "sha256": "55d51ea850efd2b31aa07acd68ad5e24f64fafe6a714d26dc357919f639f3003"
+  },
+  {
+    "path": "tcff-base/func/ulti.py",
+    "bytes": 7350,
+    "sha256": "483b3d90264a8ca58eab8880cd4605e120e69f533468d772628f5220d15b345d"
+  },
+  {
+    "path": "tcff-base/fusion_baselines.py",
+    "bytes": 9207,
+    "sha256": "b4a45d94c3254a302d02c1f919df32e6c917045889faa88b0869fc29fb6c3222"
+  },
+  {
+    "path": "tcff-base/preprocessing/topcow_preprocess_crown.py",
+    "bytes": 8220,
+    "sha256": "74cc6890c2554651f23f5c775aac53b855166106220d9ecdad6ee435dc326cb5"
+  },
+  {
+    "path": "tcff-base/preprocessing/topcow_preprocess_external.py",
+    "bytes": 16246,
+    "sha256": "f5fe36681648509034338cfdcf32bfecb3c5a7fb74e71d21d56ddd8be1e5cd22"
+  },
+  {
+    "path": "tcff-base/preprocessing/topcow_preprocess_v2.py",
+    "bytes": 18689,
+    "sha256": "c13f44538de69de1ec844cfbe6289e331447b9ffa92cd59afd4bd388529318ea"
+  },
+  {
+    "path": "tcff-base/tcff_fdd_final_v7_single_panel_neurips.py",
+    "bytes": 91735,
+    "sha256": "7fe7cc90ccf33ef592182f6f2be3a2c35a15881c57ec568081a2d696a43e8e1c"
+  },
+  {
+    "path": "tcff-base/tcff_g1_smoke.py",
+    "bytes": 6445,
+    "sha256": "15ee6f3bc53772fc24d247255971e77818fcb78472249ea32488a6d1da77a4aa"
+  },
+  {
+    "path": "tcff-base/tcff_launch_inference_matrix.py",
+    "bytes": 8117,
+    "sha256": "1d41f1bfa028a3c79bcf6d54f62ea7bf62113289449d45c8d8c6b6546c2cb48b"
+  },
+  {
+    "path": "tcff-base/tcff_launch_training_matrix.py",
+    "bytes": 4382,
+    "sha256": "a8f7c0fffa80b82a6247d08ba6913d0dd86492372430e4e467e77c16172b07e2"
+  },
+  {
+    "path": "tcff-base/tcff_rebuttal_runner.py",
+    "bytes": 27909,
+    "sha256": "e30e3579a588458db638c474d2cddcb2c4bb2cb2f1c1eef9186d2239078f44e7"
+  },
+  {
+    "path": "tcff-base/tcff_train_wrapper.py",
+    "bytes": 5996,
+    "sha256": "82b2aeaff1535e977b4141184db72171a44ae4c685925a680779e550c051955a"
+  },
+  {
+    "path": "tcff-base/topcow_dataset.py",
+    "bytes": 7912,
+    "sha256": "85ffa964301ce7201d966101f800c19e247ad84eb4024afa81704460843191f2"
+  },
+  {
+    "path": "tcff-base/topcow_eval_official_all.py",
+    "bytes": 26494,
+    "sha256": "ebd7cdf9ece3394740c056d51c56083a67a06166a7826920be2ff09dd1a57f3a"
+  },
+  {
+    "path": "tcff-base/topcow_eval_official_std_found.py",
+    "bytes": 24173,
+    "sha256": "2ed3e698eff07c630e8fdd942c349f60aca15630428b62f10adca1f24ccccdc9"
+  },
+  {
+    "path": "tcff-base/topcow_foundation_model.py",
+    "bytes": 38076,
+    "sha256": "e3b2c3dd5c8bc8533c18a39451758801ec5114fcf1d9a6ce86bbaabd70782073"
+  },
+  {
+    "path": "tcff-base/topcow_infer.py",
+    "bytes": 16574,
+    "sha256": "4bca130265bdd99c0eb990f082d49a4ebb503edcf471045aa2de7d7061fe83d1"
+  },
+  {
+    "path": "tcff-base/topcow_model.py",
+    "bytes": 17401,
+    "sha256": "53ca698359758afa421ca669ac16d23111102fc73863c9e27e74be250e08a707"
+  },
+  {
+    "path": "tcff-base/topcow_model_baselines.py",
+    "bytes": 5580,
+    "sha256": "ba3bdd93093ffc005e36ded3363f568c38c40af341db4de1473582da6092e6b2"
+  },
+  {
+    "path": "tcff-base/topcow_train.py",
+    "bytes": 17519,
+    "sha256": "1286eab6dd80767d1a7a813f39630e554a6ed2e8a9a18089d8af09505d1d9bd2"
+  },
+  {
+    "path": "tcff-base/topcow_train_foundation.py",
+    "bytes": 15907,
+    "sha256": "fd2fa108a29e4c586e589e304ca8157fd92021e47af3780ecac1ffb070c88549"
+  },
+  {
+    "path": "tcff-base/topcow_train_foundation_ddp.py",
+    "bytes": 20949,
+    "sha256": "4c4de8f67ce3ac6d71c3b90cc2ba864017da92079c574fcf798cddff7ad03d6f"
+  },
+  {
+    "path": "tcff-base/实验性能汇总.md",
+    "bytes": 27949,
+    "sha256": "05d4243d3afeb49867244687897d34e8d6a6e661a1c6356bbd6e3963f834fda0"
+  },
+  {
+    "path": "tcff-final-1623e59/.gitignore",
+    "bytes": 449,
+    "sha256": "b71a641d22b7481715a70f73ec1d7f70f918e7620cdf96e5d73b0f5a0eaaa2ae"
+  },
+  {
+    "path": "tcff-final-1623e59/REBUTTAL_PROJECT_README.md",
+    "bytes": 2433,
+    "sha256": "489eeba0a8f31afa007f7d549f65b016c815290641264498b9fac06dadbe73d2"
+  },
+  {
+    "path": "tcff-final-1623e59/func/AnatomicalClassifier.py",
+    "bytes": 6683,
+    "sha256": "ce8d47fea0e8c0a2d9e3b1eb39aefbe471cf7ab3c75edbe6945c47187a7e66e3"
+  },
+  {
+    "path": "tcff-final-1623e59/func/AnatomicalFusionModules.py",
+    "bytes": 14098,
+    "sha256": "7309281bb296eb7d861050f5ead6b563823b8393addf6ff7c18a594225030b01"
+  },
+  {
+    "path": "tcff-final-1623e59/func/EnhancedAirwaySegmentation2gau.py",
+    "bytes": 15437,
+    "sha256": "13808eeac5c23d084104d18e4b8425c01ba035b84168d1dc6a69cc6a25de28fc"
+  },
+  {
+    "path": "tcff-final-1623e59/func/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "tcff-final-1623e59/func/detect_tree.py",
+    "bytes": 40440,
+    "sha256": "33aea459f9feee3409b6248adc9d650ea61302270bdd0720d87b92f7284db2fe"
+  },
+  {
+    "path": "tcff-final-1623e59/func/load_dataset.py",
+    "bytes": 43997,
+    "sha256": "a21458df616ac4b67faa70c3ab7fe46fd90242890c794075f594d2dffeff9669"
+  },
+  {
+    "path": "tcff-final-1623e59/func/loss_func.py",
+    "bytes": 7616,
+    "sha256": "7503b0468f13ca2d773b7bc441f11ffe703e4f0f42007cc004e0b5f3945d4c62"
+  },
+  {
+    "path": "tcff-final-1623e59/func/model_arch_model10.py",
+    "bytes": 34321,
+    "sha256": "55d51ea850efd2b31aa07acd68ad5e24f64fafe6a714d26dc357919f639f3003"
+  },
+  {
+    "path": "tcff-final-1623e59/func/ulti.py",
+    "bytes": 7350,
+    "sha256": "483b3d90264a8ca58eab8880cd4605e120e69f533468d772628f5220d15b345d"
+  },
+  {
+    "path": "tcff-final-1623e59/fusion_baselines.py",
+    "bytes": 9029,
+    "sha256": "f9c639ce9c259d26a1b4f20408b2897ae425eefb5154d28620da4726d967c915"
+  },
+  {
+    "path": "tcff-final-1623e59/preprocessing/topcow_preprocess_crown.py",
+    "bytes": 8002,
+    "sha256": "ed79b79b5fc27d67e3ce6bd60f0a5fa0a3ca5b459dacb165a2036a45f9c136fd"
+  },
+  {
+    "path": "tcff-final-1623e59/preprocessing/topcow_preprocess_external.py",
+    "bytes": 15810,
+    "sha256": "7e009426b7984c88cd160e14c3600b6d346e38de66e7335bbc28e2a90f36c9e2"
+  },
+  {
+    "path": "tcff-final-1623e59/preprocessing/topcow_preprocess_v2.py",
+    "bytes": 18196,
+    "sha256": "5244e4b3dc4a7c54659a12c8045a463ab14bdd9a989e01352deccfef88b0ca5d"
+  },
+  {
+    "path": "tcff-final-1623e59/tcff_efficiency.py",
+    "bytes": 10035,
+    "sha256": "ca9ba5635a43acacd56cf1fbe046db373ab69e97f0a31c1423c32b200d9f1dae"
+  },
+  {
+    "path": "tcff-final-1623e59/tcff_fdd_final_v7_single_panel_neurips.py",
+    "bytes": 91735,
+    "sha256": "7fe7cc90ccf33ef592182f6f2be3a2c35a15881c57ec568081a2d696a43e8e1c"
+  },
+  {
+    "path": "tcff-final-1623e59/tcff_finalize_when_complete.py",
+    "bytes": 11760,
+    "sha256": "fdc6b497c938578906978b47e3cef5e7905b94be253b6aa0169c950be6c7fc97"
+  },
+  {
+    "path": "tcff-final-1623e59/tcff_g1_followup.py",
+    "bytes": 9168,
+    "sha256": "7fd0165b4fe6e24dd77de17c2443c6d69a0ee3bf1d6344d3d4f661cf473f75bd"
+  },
+  {
+    "path": "tcff-final-1623e59/tcff_g1_smoke.py",
+    "bytes": 6925,
+    "sha256": "2cc697948e44fd9cc56391df38de2cea6b3b2963075f4f0aaa60897627accd9c"
+  },
+  {
+    "path": "tcff-final-1623e59/tcff_independent_final_audit.py",
+    "bytes": 20179,
+    "sha256": "96dea5524eefeba9f0e4d0fb98c9056f9101e66c70a7bdda0be6517c91d8e161"
+  },
+  {
+    "path": "tcff-final-1623e59/tcff_launch_inference_matrix.py",
+    "bytes": 9867,
+    "sha256": "2bd844aae3988087827dcf0f75cbf148210e9463fd45d90bf2dd8b3356855098"
+  },
+  {
+    "path": "tcff-final-1623e59/tcff_launch_probability_signal_matrix.py",
+    "bytes": 6700,
+    "sha256": "bae6922bd7128d64db337ac2140643c467d6f0eb3f84d8202a02b25d693fae22"
+  },
+  {
+    "path": "tcff-final-1623e59/tcff_launch_selected_case_maps.py",
+    "bytes": 5928,
+    "sha256": "812217762aabfe11b31fa5457cbe6ef9aeac67cebd6485a5789bb20442b6248b"
+  },
+  {
+    "path": "tcff-final-1623e59/tcff_launch_trained_eval_matrix.py",
+    "bytes": 8454,
+    "sha256": "8998779eccd05f826e63f5477f4ba9d32b00a8a803b6d749268df3c806af1e95"
+  },
+  {
+    "path": "tcff-final-1623e59/tcff_launch_training_matrix.py",
+    "bytes": 4382,
+    "sha256": "a8f7c0fffa80b82a6247d08ba6913d0dd86492372430e4e467e77c16172b07e2"
+  },
+  {
+    "path": "tcff-final-1623e59/tcff_make_case_panels.py",
+    "bytes": 10555,
+    "sha256": "5c715b93d96a0a0ccff67e5aedab5a2269e1953b4b7fab6a3cd0cae1c3d3ac49"
+  },
+  {
+    "path": "tcff-final-1623e59/tcff_postprocess.py",
+    "bytes": 186498,
+    "sha256": "7da83422a48468251ac7eda5eba6cac845918993459545b4fc53c173711fd2f8"
+  },
+  {
+    "path": "tcff-final-1623e59/tcff_rebuttal_runner.py",
+    "bytes": 32842,
+    "sha256": "28a5fbf0744457df23698bc37a142f8b218af6665b99c60804da2e18389890ed"
+  },
+  {
+    "path": "tcff-final-1623e59/tcff_train_wrapper.py",
+    "bytes": 5996,
+    "sha256": "82b2aeaff1535e977b4141184db72171a44ae4c685925a680779e550c051955a"
+  },
+  {
+    "path": "tcff-final-1623e59/tcff_verify_quote_table.py",
+    "bytes": 7407,
+    "sha256": "eaa32644a0b447207c21aca66da19a46a012881d4e44dde602413dc53490bc4f"
+  },
+  {
+    "path": "tcff-final-1623e59/topcow_dataset.py",
+    "bytes": 7697,
+    "sha256": "8973f0a89ff34ccf48ae40541f84dfb47bb106dace973e8992404cd8056e394d"
+  },
+  {
+    "path": "tcff-final-1623e59/topcow_eval_official_all.py",
+    "bytes": 25772,
+    "sha256": "084a0c0a9267733458d5e9b0abe340417f7e581103cf7b3d19f7eafe294e317f"
+  },
+  {
+    "path": "tcff-final-1623e59/topcow_eval_official_std_found.py",
+    "bytes": 23521,
+    "sha256": "3203a8715e95cea5bddb0e1c6d769bd7e132c422f11d0accc1b03774e8487f05"
+  },
+  {
+    "path": "tcff-final-1623e59/topcow_foundation_model.py",
+    "bytes": 38137,
+    "sha256": "9811a2e0c0df3bc032b2fe9c19071d294f8e8527fcb7b4df9f35d33e51b7e16a"
+  },
+  {
+    "path": "tcff-final-1623e59/topcow_infer.py",
+    "bytes": 16187,
+    "sha256": "bdabad48dd3227a0f048879e8ddd811c9531bdc3c533b58d25edb0b2f0650600"
+  },
+  {
+    "path": "tcff-final-1623e59/topcow_model.py",
+    "bytes": 16974,
+    "sha256": "36a8035fddfb48590918e9d3213e712c2f3e5be1357d037a3d1124a6f84c5540"
+  },
+  {
+    "path": "tcff-final-1623e59/topcow_model_baselines.py",
+    "bytes": 5435,
+    "sha256": "fbd8be9a00add6c87a8f536a7e6b77165eefb591099aafa70c34cbfb0983b0bc"
+  },
+  {
+    "path": "tcff-final-1623e59/topcow_train.py",
+    "bytes": 17057,
+    "sha256": "26cab7549c5eaa4fd7cb0d93276425233325c7f9b7646c96f120fa6c2c0eb149"
+  },
+  {
+    "path": "tcff-final-1623e59/topcow_train_foundation.py",
+    "bytes": 15605,
+    "sha256": "754f55da2b48f8fcaf0908808c70f2d8b9dbc779ae964a433f452745b0041520"
+  },
+  {
+    "path": "tcff-final-1623e59/topcow_train_foundation_ddp.py",
+    "bytes": 20949,
+    "sha256": "4c4de8f67ce3ac6d71c3b90cc2ba864017da92079c574fcf798cddff7ad03d6f"
+  },
+  {
+    "path": "tcff-final-1623e59/实验性能汇总.md",
+    "bytes": 27712,
+    "sha256": "2828640543eeb8dfcc1501fbec63524b0d91f65194794eefc69b618be53b8288"
+  }
+]
