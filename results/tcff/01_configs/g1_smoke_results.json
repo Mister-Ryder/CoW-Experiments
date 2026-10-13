@@ -1,0 +1,346 @@
+{
+  "clean_output_sha256": "f1142e5b8ce7d78d90ce5d0222478b5b553daa761441fa065eaf594c8a689aea",
+  "corruptions": {
+    "attenuation": {
+      "clean_max_abs_diff": 1.0,
+      "prediction_sha256": "24391f97f9a75d537224ee6c23e2f65523d04ddfcbee4d63d6f048e1f85009f9",
+      "repeat_max_abs_diff": 0.0,
+      "severity": 0.5
+    },
+    "channel_dropout": {
+      "clean_max_abs_diff": 0.9999995231628418,
+      "prediction_sha256": "754ac1d43649a720bd42fb0abacd54232ea262d7e9ba59559ea0f667d35b7387",
+      "repeat_max_abs_diff": 0.0,
+      "severity": 0.25
+    },
+    "donor_mix": {
+      "clean_max_abs_diff": 1.0,
+      "repeat_max_abs_diff": 0.0,
+      "severity": 0.25
+    },
+    "gaussian": {
+      "clean_max_abs_diff": 0.1400209367275238,
+      "prediction_sha256": "961435721bc1ffd057e9eb0c1a930e772a98b9fa795744678d94512f41fa8959",
+      "repeat_max_abs_diff": 0.0,
+      "severity": 0.1
+    },
+    "translation": {
+      "clean_max_abs_diff": 0.9999996423721313,
+      "prediction_sha256": "3f7a099190e1fe8e05b3a1416d6f684b1f63922871324c0909df8b9c085f8e11",
+      "repeat_max_abs_diff": 0.0,
+      "severity": 2.0
+    }
+  },
+  "gate_dose": [
+    {
+      "alpha": 0.0,
+      "binary_dice": 0.803807436828385,
+      "class_avg_dice": 0.30555481292537884,
+      "output_sha256": "5c3ede3775fbd467bd2c716c6d2e5a804aa1b83ab6525ce12da451f090bd90ac"
+    },
+    {
+      "alpha": 0.25,
+      "binary_dice": 0.9104791753085519,
+      "class_avg_dice": 0.5686857088338308,
+      "output_sha256": "2af10d9acaef62d839407eded191611f0489b4aff9191c221da6da3142dfad92"
+    },
+    {
+      "alpha": 0.5,
+      "binary_dice": 0.9173275691475236,
+      "class_avg_dice": 0.6416979297210079,
+      "output_sha256": "731b73791038bdf4fdd6e9acd8f66dbc5d0b8f9229ad8720ac5fc75c990ca761"
+    },
+    {
+      "alpha": 0.75,
+      "binary_dice": 0.9154036006845306,
+      "class_avg_dice": 0.6004597555352323,
+      "output_sha256": "b4f56ad76fe650f5df2de177d16faf4e546543702999a7a65c618fd3381f3015"
+    },
+    {
+      "alpha": 1.0,
+      "binary_dice": 0.9093735849057972,
+      "class_avg_dice": 0.5423127634472098,
+      "output_sha256": "04163284039915f9dae342cdf538c7f4989f5e0ec0944006a93039ad5205c416"
+    }
+  ],
+  "hook_max_abs_diff": 0.0,
+  "hook_output_sha256": "f1142e5b8ce7d78d90ce5d0222478b5b553daa761441fa065eaf594c8a689aea",
+  "reference": {
+    "dtype": "float32",
+    "max": 1.0,
+    "min": 0.0,
+    "pred_sha256": "e8ed172d65c5e88a1816ec283443d839ed3d5db0fb9359dc5759c7c635d716a5",
+    "seg_sha256": "f1142e5b8ce7d78d90ce5d0222478b5b553daa761441fa065eaf594c8a689aea",
+    "shape": [
+      1,
+      14,
+      64,
+      160,
+      160
+    ],
+    "sum": 1638397.875
+  },
+  "signal_shapes": {
+    "deep": {
+      "A": [
+        1,
+        128,
+        16,
+        40,
+        40
+      ],
+      "A_clean": [
+        1,
+        128,
+        16,
+        40,
+        40
+      ],
+      "F": [
+        1,
+        128,
+        16,
+        40,
+        40
+      ],
+      "FDD": [
+        1,
+        1,
+        16,
+        40,
+        40
+      ],
+      "G": [
+        1,
+        1,
+        16,
+        40,
+        40
+      ],
+      "T": [
+        1,
+        1,
+        16,
+        40,
+        40
+      ],
+      "U": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "accepted_delta": [
+        1,
+        128,
+        16,
+        40,
+        40
+      ],
+      "channel_weight": [
+        1,
+        128
+      ],
+      "delta": [
+        1,
+        128,
+        16,
+        40,
+        40
+      ],
+      "spatial_suppression": [
+        1,
+        1,
+        16,
+        40,
+        40
+      ]
+    },
+    "mid": {
+      "A": [
+        1,
+        64,
+        32,
+        80,
+        80
+      ],
+      "A_clean": [
+        1,
+        64,
+        32,
+        80,
+        80
+      ],
+      "F": [
+        1,
+        64,
+        32,
+        80,
+        80
+      ],
+      "FDD": [
+        1,
+        1,
+        32,
+        80,
+        80
+      ],
+      "G": [
+        1,
+        1,
+        32,
+        80,
+        80
+      ],
+      "T": [
+        1,
+        1,
+        32,
+        80,
+        80
+      ],
+      "U": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "accepted_delta": [
+        1,
+        64,
+        32,
+        80,
+        80
+      ],
+      "channel_weight": [
+        1,
+        64
+      ],
+      "delta": [
+        1,
+        64,
+        32,
+        80,
+        80
+      ],
+      "spatial_suppression": [
+        1,
+        1,
+        32,
+        80,
+        80
+      ]
+    },
+    "shallow": {
+      "A": [
+        1,
+        32,
+        64,
+        160,
+        160
+      ],
+      "A_clean": [
+        1,
+        32,
+        64,
+        160,
+        160
+      ],
+      "F": [
+        1,
+        32,
+        64,
+        160,
+        160
+      ],
+      "FDD": [
+        1,
+        1,
+        64,
+        160,
+        160
+      ],
+      "G": [
+        1,
+        1,
+        64,
+        160,
+        160
+      ],
+      "T": [
+        1,
+        1,
+        64,
+        160,
+        160
+      ],
+      "U": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "accepted_delta": [
+        1,
+        32,
+        64,
+        160,
+        160
+      ],
+      "channel_weight": [
+        1,
+        32
+      ],
+      "delta": [
+        1,
+        32,
+        64,
+        160,
+        160
+      ],
+      "spatial_suppression": [
+        1,
+        1,
+        64,
+        160,
+        160
+      ]
+    }
+  },
+  "status": "success",
+  "variants": {
+    "additive": {
+      "binary_dice": 0.9355130352300463,
+      "class_avg_dice": 0.7234676166227555,
+      "output_sha256": "dad21b4f523a8946af68f83a1a2f83f53957d9de007a7a823b97765ff762b417"
+    },
+    "full": {
+      "binary_dice": 0.9345921830767692,
+      "class_avg_dice": 0.7276869962291674,
+      "output_sha256": "f1142e5b8ce7d78d90ce5d0222478b5b553daa761441fa065eaf594c8a689aea"
+    },
+    "g_only": {
+      "binary_dice": 0.9371073874573821,
+      "class_avg_dice": 0.7294340811736687,
+      "output_sha256": "fb7e93306892c1bf00e1d45f8504af3d8a7485bfe295ad95a132c9812934bf4c"
+    },
+    "no_aux": {
+      "binary_dice": 0.803807436828385,
+      "class_avg_dice": 0.30555481292537884,
+      "output_sha256": "5c3ede3775fbd467bd2c716c6d2e5a804aa1b83ab6525ce12da451f090bd90ac"
+    },
+    "residual": {
+      "binary_dice": 0.9093735849057972,
+      "class_avg_dice": 0.5423127634472098,
+      "output_sha256": "04163284039915f9dae342cdf538c7f4989f5e0ec0944006a93039ad5205c416"
+    },
+    "u_only": {
+      "binary_dice": 0.8183259731626825,
+      "class_avg_dice": 0.295816910075475,
+      "output_sha256": "87beddf85a84423a047e516a77df83d39905eb832da56fa466f10bf2f361735b"
+    }
+  }
+}

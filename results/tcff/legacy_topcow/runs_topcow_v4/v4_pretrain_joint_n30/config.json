@@ -1,0 +1,15 @@
+{
+  "exp_name": "v4_pretrain_joint_n30",
+  "noise_rate": 0.3,
+  "train_dir": "./TopCoW_processed",
+  "test_dir": "./crown_processed",
+  "output_dir": "./runs_topcow_v4",
+  "stage1_epochs": 100,
+  "stage2_epochs": 200,
+  "batch_size": 2,
+  "lr": 0.001,
+  "num_workers": 4,
+  "skip_stage1": false,
+  "stage1_path": "",
+  "aux_lr_ratio": 0.01
+}

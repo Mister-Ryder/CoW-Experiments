@@ -1,0 +1,52 @@
+{
+  "checkpoint": "<AUTODL_TMP>/tcff-rebuttal/Runs_foundation/sam_tgf_v3/best_model.pth",
+  "checkpoint_hash": "56cdbdc6db1fc1e4f0789e97b88235c7ea48dd3d2d2a9883fd48ea14a13165d3",
+  "created_at": "2026-07-29T16:03:17.686308+00:00",
+  "cuda": "12.1",
+  "dataset": "<AUTODL_TMP>/tcff-rebuttal/crown_processed",
+  "device": "cuda:0",
+  "end_to_end_definition": "one complete model forward including frozen foundation encoder",
+  "environment": {
+    "CUDA_VISIBLE_DEVICES": "0",
+    "OMP_NUM_THREADS": "8"
+  },
+  "flop_convention": "FLOPs=2*MACs",
+  "fusion_only_definition": "sum of the three TGF module forwards on cached real inputs",
+  "gpu_name": "NVIDIA GeForce RTX 4080",
+  "input_shape": [
+    1,
+    1,
+    64,
+    160,
+    160
+  ],
+  "model_config": {
+    "batch_size": 2,
+    "contras_weight": 0.1,
+    "epochs": 200,
+    "exp_name": "sam_tgf_v3",
+    "foundation_ckpt": "./sam_med3d_turbo.pth",
+    "foundation_type": "sam3d_turbo",
+    "fusion_type": "tgf",
+    "lr": 0.001,
+    "num_workers": 4,
+    "output_dir": "./runs_topcow_foundation",
+    "seed": 42,
+    "summarize": false,
+    "test_dir": "./crown_processed",
+    "train_dir": "./TopCoW_processed",
+    "use_contras": false
+  },
+  "python": "3.9.18",
+  "repeats": 30,
+  "torch": "2.2.1",
+  "variants": [
+    "full",
+    "residual",
+    "u_only",
+    "g_only",
+    "no_aux",
+    "additive"
+  ],
+  "warmup": 10
+}

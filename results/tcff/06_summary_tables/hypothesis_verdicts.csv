@@ -1,0 +1,8 @@
+hypothesis,verdict,evidence_files,caveat
+H1 Local auxiliary-update risk exists,Strongly supported,Figure_R1_source.csv; p0_a_utility_summary.csv,Observed paired inference-time utility; not a causal ground truth.
+H2 Saved trust signals rank observed utility,Partially supported,p0_b_signal_validity.csv; Figure_R2_trust_validation.png,Ranking and raw calibration are distinct; level-global U limits spatial claims.
+H3 G adds information beyond U,See measured comparisons,Table_R1_components.csv,A full verdict requires completed three-seed trained variants.
+H4 Executed product rule outperforms simple alternatives,See measured comparisons,Table_R1_components.csv; Table_R1_product_fixed_corruption.csv,"Submitted A_impl, fixed product intervention, and independently trained variants are reported separately."
+H5 Controlled degradation forms a mechanism-consistent chain,See measured intervention slopes,Figure_R3_source.csv; p0_c_degradation_slopes.csv,Corruption severities have different physical/statistical units and are not pooled numerically.
+H6 Gains are not explained by capacity or global attenuation,Not evaluated,Table_R1_components.csv; Table_R2_efficiency.csv,Parameter-matched and magnitude-matched controls were not in the minimum 12-hour matrix.
+H7 Failure boundaries remain measurable,Strongly supported,p0_g_quadrants.csv; predeclared_case_selection.csv,Common-mode failures require a dedicated intervention and are not inferred from other corruptions.

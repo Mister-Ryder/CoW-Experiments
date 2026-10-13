@@ -1,0 +1,29 @@
+# Raw data, model weights, and archives
+*.pth
+*.pt
+*.ckpt
+*.npy
+*.npz
+*.nii
+*.nii.gz
+*.parquet
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+
+# Runtime and local secrets
+__pycache__/
+*.py[cod]
+*.log
+*.pid
+.env
+.env.*
+.idea/
+.vscode/
+
+# Local staging and backups
+archives/
+raw-data/
+checkpoints/

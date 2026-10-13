@@ -1,0 +1,303 @@
+{
+  "active_parameter_definition": "Unique parameters directly owned by modules invoked in the measured inference forward; includes frozen parameters and does not imply non-zero causal influence for every ablation.",
+  "batch_size": 1,
+  "concurrency_requirement": "No other compute process on any GPU during formal timing",
+  "created_at": "2026-07-30T03:09:50.145932+00:00",
+  "cuda": "12.1",
+  "dataset": "<DATA_ROOT>/tcff-rebuttal-workspace/crown_processed",
+  "device": "cuda:0",
+  "end_to_end_definition": "one complete forward including the frozen foundation encoder; measured before any fusion-input feature cache is created",
+  "environment": {
+    "CUDA_VISIBLE_DEVICES": "0",
+    "OMP_NUM_THREADS": "8"
+  },
+  "flop_convention": "For explicitly suffixed THOP-partial fields only: FLOPs=2*MACs",
+  "fusion_only_definition": "sum of three fusion-module forwards on cached real inputs",
+  "gpu_compute_processes_after": [
+    {
+      "gpu_uuid": "GPU-1024e6c7-5d45-7682-06cb-bb0440f51bca",
+      "pid": 40777,
+      "used_gpu_memory_mb": 352
+    }
+  ],
+  "gpu_compute_processes_before": [
+    {
+      "gpu_uuid": "GPU-1024e6c7-5d45-7682-06cb-bb0440f51bca",
+      "pid": 40777,
+      "used_gpu_memory_mb": 268
+    }
+  ],
+  "gpu_name": "NVIDIA GeForce RTX 4080 SUPER",
+  "input_shape": [
+    1,
+    1,
+    64,
+    160,
+    160
+  ],
+  "macs_strictly_cross_method_comparable": false,
+  "models": [
+    {
+      "checkpoint": "<DATA_ROOT>/tcff-rebuttal-workspace/Runs_foundation/sam_tgf_v3/best_model.pth",
+      "checkpoint_hash": "56cdbdc6db1fc1e4f0789e97b88235c7ea48dd3d2d2a9883fd48ea14a13165d3",
+      "exp_dir": "<DATA_ROOT>/tcff-rebuttal-workspace/Runs_foundation/sam_tgf_v3",
+      "identity": "TCFF/full",
+      "model_config": {
+        "batch_size": 2,
+        "contras_weight": 0.1,
+        "epochs": 200,
+        "exp_name": "sam_tgf_v3",
+        "foundation_ckpt": "./sam_med3d_turbo.pth",
+        "foundation_type": "sam3d_turbo",
+        "fusion_type": "tgf",
+        "lr": 0.001,
+        "num_workers": 4,
+        "output_dir": "./runs_topcow_foundation",
+        "resolved_foundation_ckpt": "<AUTODL_TMP>/tcff-v2-runtime/sam_med3d_turbo.pth",
+        "seed": 42,
+        "summarize": false,
+        "test_dir": "./crown_processed",
+        "train_dir": "./TopCoW_processed",
+        "use_contras": false
+      }
+    },
+    {
+      "checkpoint": "<DATA_ROOT>/tcff-rebuttal-workspace/Runs_foundation/sam_tgf_v3/best_model.pth",
+      "checkpoint_hash": "56cdbdc6db1fc1e4f0789e97b88235c7ea48dd3d2d2a9883fd48ea14a13165d3",
+      "exp_dir": "<DATA_ROOT>/tcff-rebuttal-workspace/Runs_foundation/sam_tgf_v3",
+      "identity": "TCFF/product",
+      "model_config": {
+        "batch_size": 2,
+        "contras_weight": 0.1,
+        "epochs": 200,
+        "exp_name": "sam_tgf_v3",
+        "foundation_ckpt": "./sam_med3d_turbo.pth",
+        "foundation_type": "sam3d_turbo",
+        "fusion_type": "tgf",
+        "lr": 0.001,
+        "num_workers": 4,
+        "output_dir": "./runs_topcow_foundation",
+        "resolved_foundation_ckpt": "<AUTODL_TMP>/tcff-v2-runtime/sam_med3d_turbo.pth",
+        "seed": 42,
+        "summarize": false,
+        "test_dir": "./crown_processed",
+        "train_dir": "./TopCoW_processed",
+        "use_contras": false
+      }
+    },
+    {
+      "checkpoint": "<DATA_ROOT>/tcff-rebuttal-workspace/Runs_foundation/sam_tgf_v3/best_model.pth",
+      "checkpoint_hash": "56cdbdc6db1fc1e4f0789e97b88235c7ea48dd3d2d2a9883fd48ea14a13165d3",
+      "exp_dir": "<DATA_ROOT>/tcff-rebuttal-workspace/Runs_foundation/sam_tgf_v3",
+      "identity": "TCFF/g_only",
+      "model_config": {
+        "batch_size": 2,
+        "contras_weight": 0.1,
+        "epochs": 200,
+        "exp_name": "sam_tgf_v3",
+        "foundation_ckpt": "./sam_med3d_turbo.pth",
+        "foundation_type": "sam3d_turbo",
+        "fusion_type": "tgf",
+        "lr": 0.001,
+        "num_workers": 4,
+        "output_dir": "./runs_topcow_foundation",
+        "resolved_foundation_ckpt": "<AUTODL_TMP>/tcff-v2-runtime/sam_med3d_turbo.pth",
+        "seed": 42,
+        "summarize": false,
+        "test_dir": "./crown_processed",
+        "train_dir": "./TopCoW_processed",
+        "use_contras": false
+      }
+    },
+    {
+      "checkpoint": "<DATA_ROOT>/tcff-rebuttal-workspace/Runs_foundation/sam_tgf_v3/best_model.pth",
+      "checkpoint_hash": "56cdbdc6db1fc1e4f0789e97b88235c7ea48dd3d2d2a9883fd48ea14a13165d3",
+      "exp_dir": "<DATA_ROOT>/tcff-rebuttal-workspace/Runs_foundation/sam_tgf_v3",
+      "identity": "TCFF/residual",
+      "model_config": {
+        "batch_size": 2,
+        "contras_weight": 0.1,
+        "epochs": 200,
+        "exp_name": "sam_tgf_v3",
+        "foundation_ckpt": "./sam_med3d_turbo.pth",
+        "foundation_type": "sam3d_turbo",
+        "fusion_type": "tgf",
+        "lr": 0.001,
+        "num_workers": 4,
+        "output_dir": "./runs_topcow_foundation",
+        "resolved_foundation_ckpt": "<AUTODL_TMP>/tcff-v2-runtime/sam_med3d_turbo.pth",
+        "seed": 42,
+        "summarize": false,
+        "test_dir": "./crown_processed",
+        "train_dir": "./TopCoW_processed",
+        "use_contras": false
+      }
+    },
+    {
+      "checkpoint": "<DATA_ROOT>/tcff-rebuttal-workspace/Runs_foundation/sam_tgf_v3/best_model.pth",
+      "checkpoint_hash": "56cdbdc6db1fc1e4f0789e97b88235c7ea48dd3d2d2a9883fd48ea14a13165d3",
+      "exp_dir": "<DATA_ROOT>/tcff-rebuttal-workspace/Runs_foundation/sam_tgf_v3",
+      "identity": "TCFF/no_aux",
+      "model_config": {
+        "batch_size": 2,
+        "contras_weight": 0.1,
+        "epochs": 200,
+        "exp_name": "sam_tgf_v3",
+        "foundation_ckpt": "./sam_med3d_turbo.pth",
+        "foundation_type": "sam3d_turbo",
+        "fusion_type": "tgf",
+        "lr": 0.001,
+        "num_workers": 4,
+        "output_dir": "./runs_topcow_foundation",
+        "resolved_foundation_ckpt": "<AUTODL_TMP>/tcff-v2-runtime/sam_med3d_turbo.pth",
+        "seed": 42,
+        "summarize": false,
+        "test_dir": "./crown_processed",
+        "train_dir": "./TopCoW_processed",
+        "use_contras": false
+      }
+    },
+    {
+      "checkpoint": "<DATA_ROOT>/tcff-rebuttal-workspace/Runs_foundation/sam_concat/best_model.pth",
+      "checkpoint_hash": "4f2577a62dd839082313a43b13f307aeeae9b80e8d37a56a9acde9e4cfd56c56",
+      "exp_dir": "<DATA_ROOT>/tcff-rebuttal-workspace/Runs_foundation/sam_concat",
+      "identity": "Concat/native",
+      "model_config": {
+        "batch_size": 2,
+        "contras_weight": 0.1,
+        "epochs": 200,
+        "exp_name": "sam_concat",
+        "foundation_ckpt": "./sam_med3d_turbo.pth",
+        "foundation_type": "sam3d_turbo",
+        "fusion_type": "concat",
+        "lr": 0.001,
+        "num_workers": 4,
+        "output_dir": "./runs_topcow_foundation",
+        "resolved_foundation_ckpt": "<AUTODL_TMP>/tcff-v2-runtime/sam_med3d_turbo.pth",
+        "seed": 42,
+        "summarize": false,
+        "test_dir": "./crown_processed",
+        "train_dir": "./TopCoW_processed",
+        "use_contras": false
+      }
+    },
+    {
+      "checkpoint": "<DATA_ROOT>/tcff-rebuttal-workspace/Runs_foundation/sam_bagf/best_model.pth",
+      "checkpoint_hash": "30bf397977a30bdf029d8f3ed5e45cb59030950ab70a29ba304a6b9ca698192c",
+      "exp_dir": "<DATA_ROOT>/tcff-rebuttal-workspace/Runs_foundation/sam_bagf",
+      "identity": "BAGF/native",
+      "model_config": {
+        "batch_size": 2,
+        "contras_weight": 0.1,
+        "epochs": 200,
+        "exp_name": "sam_bagf",
+        "foundation_ckpt": "./sam_med3d_turbo.pth",
+        "foundation_type": "sam3d_turbo",
+        "fusion_type": "bagf",
+        "lr": 0.001,
+        "num_workers": 4,
+        "output_dir": "./runs_topcow_foundation",
+        "resolved_foundation_ckpt": "<AUTODL_TMP>/tcff-v2-runtime/sam_med3d_turbo.pth",
+        "seed": 42,
+        "summarize": false,
+        "test_dir": "./crown_processed",
+        "train_dir": "./TopCoW_processed",
+        "use_contras": false
+      }
+    },
+    {
+      "checkpoint": "<DATA_ROOT>/tcff-rebuttal-workspace/Runs_foundation/sam_dsff/best_model.pth",
+      "checkpoint_hash": "f6fb4b94f4f6ba3fa6827e6043092d1823b15f4dac31c9a0bf8d77c89c99a77c",
+      "exp_dir": "<DATA_ROOT>/tcff-rebuttal-workspace/Runs_foundation/sam_dsff",
+      "identity": "DSFF/native",
+      "model_config": {
+        "batch_size": 2,
+        "contras_weight": 0.1,
+        "epochs": 200,
+        "exp_name": "sam_dsff",
+        "foundation_ckpt": "./sam_med3d_turbo.pth",
+        "foundation_type": "sam3d_turbo",
+        "fusion_type": "dsff",
+        "lr": 0.001,
+        "num_workers": 4,
+        "output_dir": "./runs_topcow_foundation",
+        "resolved_foundation_ckpt": "<AUTODL_TMP>/tcff-v2-runtime/sam_med3d_turbo.pth",
+        "seed": 42,
+        "summarize": false,
+        "test_dir": "./crown_processed",
+        "train_dir": "./TopCoW_processed",
+        "use_contras": false
+      }
+    },
+    {
+      "checkpoint": "<DATA_ROOT>/tcff-rebuttal-workspace/Runs_foundation_v2/sam_crossattn/best_model.pth",
+      "checkpoint_hash": "b03f3c210eda2d09059d3809b24d2194588fd09651226c0daf85a4b8d7cc600e",
+      "exp_dir": "<DATA_ROOT>/tcff-rebuttal-workspace/Runs_foundation_v2/sam_crossattn",
+      "identity": "CrossAttn/native",
+      "model_config": {
+        "amp": true,
+        "batch_size": 12,
+        "contras_weight": 0.1,
+        "distributed": true,
+        "epochs": 200,
+        "exp_name": "sam_crossattn",
+        "foundation_ckpt": "./sam_med3d_turbo.pth",
+        "foundation_type": "sam3d_turbo",
+        "fusion_type": "crossattn",
+        "local_rank": 0,
+        "lr": 0.001,
+        "num_workers": 2,
+        "output_dir": "./runs_topcow_foundation",
+        "rank": 0,
+        "resolved_foundation_ckpt": "<AUTODL_TMP>/tcff-v2-runtime/sam_med3d_turbo.pth",
+        "seed": 42,
+        "summarize": false,
+        "test_dir": "./crown_processed",
+        "train_dir": "./TopCoW_processed",
+        "use_contras": false,
+        "world_size": 4
+      }
+    },
+    {
+      "checkpoint": "<DATA_ROOT>/tcff-rebuttal-workspace/Runs_foundation_v2/sam_aff/best_model.pth",
+      "checkpoint_hash": "01ee3fb14fde4c1f66fc139d91a525bfa2fd98f01301cb69d8c9410fe04d7f48",
+      "exp_dir": "<DATA_ROOT>/tcff-rebuttal-workspace/Runs_foundation_v2/sam_aff",
+      "identity": "AFF/native",
+      "model_config": {
+        "amp": true,
+        "batch_size": 18,
+        "contras_weight": 0.1,
+        "distributed": true,
+        "epochs": 200,
+        "exp_name": "sam_aff",
+        "foundation_ckpt": "./sam_med3d_turbo.pth",
+        "foundation_type": "sam3d_turbo",
+        "fusion_type": "aff",
+        "local_rank": 0,
+        "lr": 0.001,
+        "num_workers": 2,
+        "output_dir": "./runs_topcow_foundation",
+        "rank": 0,
+        "resolved_foundation_ckpt": "<AUTODL_TMP>/tcff-v2-runtime/sam_med3d_turbo.pth",
+        "seed": 42,
+        "summarize": false,
+        "test_dir": "./crown_processed",
+        "train_dir": "./TopCoW_processed",
+        "use_contras": false,
+        "world_size": 6
+      }
+    }
+  ],
+  "precision": "float32",
+  "primary_cross_method_efficiency_evidence": [
+    "parameter counts",
+    "measured latency",
+    "measured peak allocated CUDA memory"
+  ],
+  "protocol": "TCFF_V2_ISOLATED_EFFICIENCY_2026-07-30",
+  "python": "3.9.18",
+  "repeats": 30,
+  "thop_evidence_role": "Secondary partial estimate only. THOP does not count all functional/tensor operations, including explicit attention matmuls, so MACs/FLOPs are not strictly cross-method comparable.",
+  "torch": "2.2.1",
+  "warmup": 10
+}

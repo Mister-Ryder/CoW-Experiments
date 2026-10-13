@@ -1,0 +1,15 @@
+{
+  "dtype": "float32",
+  "max": 1.0,
+  "min": 0.0,
+  "pred_sha256": "e8ed172d65c5e88a1816ec283443d839ed3d5db0fb9359dc5759c7c635d716a5",
+  "seg_sha256": "f1142e5b8ce7d78d90ce5d0222478b5b553daa761441fa065eaf594c8a689aea",
+  "shape": [
+    1,
+    14,
+    64,
+    160,
+    160
+  ],
+  "sum": 1638397.875
+}

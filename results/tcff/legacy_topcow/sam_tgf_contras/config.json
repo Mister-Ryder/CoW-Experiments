@@ -1,0 +1,17 @@
+{
+  "exp_name": "sam_tgf_contras",
+  "foundation_type": "sam3d_turbo",
+  "fusion_type": "tgf",
+  "foundation_ckpt": "./sam_med3d_turbo.pth",
+  "seed": 42,
+  "train_dir": "./TopCoW_processed",
+  "test_dir": "./crown_processed",
+  "output_dir": "./runs_topcow_foundation",
+  "epochs": 200,
+  "batch_size": 2,
+  "lr": 0.001,
+  "num_workers": 4,
+  "summarize": false,
+  "use_contras": true,
+  "contras_weight": 0.1
+}

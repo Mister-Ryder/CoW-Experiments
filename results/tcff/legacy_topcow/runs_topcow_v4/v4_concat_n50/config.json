@@ -1,0 +1,15 @@
+{
+  "exp_name": "v4_concat_n50",
+  "model_type": "concat",
+  "noise_rate": 0.5,
+  "seed": 42,
+  "train_dir": "./TopCoW_processed",
+  "test_dir": "./crown_processed",
+  "output_dir": "./runs_topcow_v4",
+  "epochs": 200,
+  "batch_size": 2,
+  "lr": 0.001,
+  "num_workers": 4,
+  "gpu": 0,
+  "summarize": false
+}
